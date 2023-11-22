@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "eslint": "^8.48.0",
+    "prettier": "^2.8.8",
+    "tsconfig": "*",
+    "turbo": "latest"
+  },
+  "name": "sqnc",
+  "packageManager": "npm@9.6.4",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
